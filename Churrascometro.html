@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style_churrascometro.css"/>
+    <title>Churrascometro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+        </style>
+
+</head>
+
+
+<body>
+ 
+    <!-- container é onde vai ficar todo o conteudo no exemplo é a caixa azul -->
+    <section>
+
+        <div class="container1">
+
+            <h1 id="titulo">Churrascometro</h1>
+            <h2 id="subTitulo">Solução de cálculo para churrasco</h2>
+
+            <div class="container">
+            <!-- icone para voltar para pagina principal -->
+            <a href="./README.md.html">
+                <img src="./img/comeback - Copia.png" id="goBack" >
+            </a>
+
+            <!-- Calculando -->
+                    <input id="adultos" name="adultos" type="number" placeholder="Adultos"> <!-- Caixa para preenchimento -->
+                    <input id="criancas" name="criancas" type="number" placeholder="Crianças"> <!-- Caixa para preenchimento -->
+                    <input id="duracao" name="duracao" type="number" placeholder="Duração (h)"> <!-- Caixa para preenchimento -->
+                    <button onclick="calcular()">Calcular</button>
+
+                <!-- resultado do calculo feito em js -->
+                <div id="resultado">
+                </div>
+            </div>
+ 
+        </div>
+        <script src="script.js"> </script>
+
+    </section>
+
+</body>
+</html>

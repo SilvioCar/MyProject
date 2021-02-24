@@ -1,0 +1,93 @@
+header{
+    background-color: #2f77ff;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: 0;
+}
+
+.container{ /* criação de um container e limitar o tamanho */ 
+    max-width: 1000px; /* tamanho maximo */
+    margin: auto; /* centrlizando o conteudo */
+}
+
+.title{
+    font-size: 20px; /* tamanho da font */
+    border: 0;
+    padding: 0;
+}
+
+section{
+    padding: 15px;
+    background-image: url(./17545.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{ /*CAIXA DA DIREITA DEFININDO ESTILO DE UM CONTAINER */
+    max-width: 230px;
+    background-color: #c0e5ff93;
+    padding: 20px;
+    float: right;
+    border-radius: 5px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+footer{ /* aplicando estilo no rodaé tais como: cor do fundo, espaço e centralizando */ 
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{ /* modificando o tamanho da imagem */
+    width: 220px;
+    border-radius: 20px;
+
+}
+
+.description{ /*  aplicando estilo na descrição do eu*/
+    text-align: left;
+    color: white;
+    display: inline-block; /* para manter a escrita no lado direito da imagem */
+    max-width: 40%;
+    margin-left: 40px; /* forçando que a letra fique alinhado a esquerda */ 
+}
+
+.description p, .description h3{ /* colocando margem de baixo no paragrafo e no titulo */
+    margin-bottom: 15px;
+}
+
+.description h3{ /* modificando o tamanho da fonte do titulo */ 
+    font-size: 24px;
+}
+
+
+.button {
+    width: 75%;
+    background-color: #2f78ff95;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    list-style-type: none;
+  }
+
+  .button:hover{
+      background-color: #2f78ff;
+  }

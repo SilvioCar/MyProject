@@ -1,0 +1,85 @@
+
+/* estilizando o conteiner, a caixa de informação*/
+.container{
+    width: 300px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff65;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+/* estilizando o conteudo dentro do container, informação */
+input{
+    width: 100%;
+    display: block; 
+    padding: 5px;
+    box-sizing: border-box;/* centraliza a caixa de imput */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/backgrund.jpg);
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+#titulo{
+    color: white;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: -5px;
+    padding: 0;
+
+}
+
+
+#subTitulo{
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+
+.container1{
+    
+    margin-top: 210px;
+    margin-left: 150px;
+}
+
+
+.imgAd{
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    width: 40px;
+}
+
+#goBack{
+   
+    width: 40px;
+    position: absolute;
+    right: -9px;
+    top: -15px;
+}
+
+
+#resultado{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
