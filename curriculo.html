@@ -1,138 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-Br">
+
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./CSS/style_curriculo.css">
         <title>Meu Curriculo</title>
-        <style>
-            body{
-                font-size: 15px;
-                padding: 10px;
-            }
-            .Contato{    
-                line-height: 0.2;
-            }
-            img{ /* verificar como distanciar a imagem do texto */
-                float: left;
-                width: 110px;
-            }
-
-            .formacao{    
-                line-height: 0.2;
-            }
-
-            a{
-                text-decoration: none;
-            }
-
-            #goBack{
-                width: 40px;
-                margin-bottom: 10px;
-
-
-            }
-
-        </style>
-
-        <script>
-            function goBack() {
-                window.history.back()}
-        </script>
-
-
-    </head>
     <body>
+        <section>
+            <div class="block_left">
+                <img src="./img/minha.jpg">
+                <br>
+                <div class="sobremim">
+                    <h1>SOBRE MIM</h1>
+                    <p>Atualmente cursando 3º semestre de Sistemas de Informação na Faculdade de Tecnologia Impacta.
+                        Formado em 2012 no curso de Gestão em Logística empresarial pela Faculdade Sumaré.
+                        Já estudando Tecnologia desenvolvi e estou desenvolvendo alguns 
+                        projetos acadêmicos que envolvem as seguintes ferramentas e linguagens: Arduíno, SQL Server, HTML 5, CSS e JavaScript.</p>
+                </div>
+                <div class="abiliity">
+                    <h1>HABILIDADES</h1>
+                    <p>HMTL</P>
+                    <div class="progress">
+                        <div class="bar-html"></div>
+                    </div>
+                    <p>CSS</P>
+                        <div class="progress">
+                            <div class="bar-css"></div>
+                        </div>
+                        <p>JAVASCRIPT</P>
+                            <div class="progress">
+                                <div class="bar-js"></div>
+                            </div>
+                        <p>PYTHON</P>
+                            <div class="progress">
+                                <div class="bar-py"></div>
+                            </div>
+                            <p>EXCEL</P>
+                                <div class="progress">
+                                    <div class="bar-excel"></div>
+                                </div>
+                    <br><p></p>
+                    <br><p></p>
+                    <br><p></p>
+                    <br><p></p>
+                    <br><p></p>
+                </div>
+            </div>
+        
+            <div class="block_right">
+                <div class="contact">
+                    <div class="information">
+                        <h1 id="name">SILVIO CARVALHO</h1>
+                        <p id="idade">32 ANOS - CASADO</p>
+                    </div>
+                    <div class="contato">
+                        
+                        <p><strong>Telefone: </strong>(11)951318706</p>
+                        <p><strong>Email: </strong><a href="mailto:silvio.carvalho@gmail.com">silvio.carvalho@hotmail.com</a></p>
+                        <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/silviocar/">Silvio Carvalho</a></p>
+                        <p><strong>Endereço: </strong>Av. Brigadeiro Luis Antonio</p>
+                        <p><strong>Cidade: </strong>São Paulo - SP </p>
+                        <p><strong>Nacionalidade: </strong>Brasileira / Portuguesa</p>
+                    </div>
+                </div>
+                <div class="objetivo">
+                    <h2>OBJETIVO</h2>
+                    <p>Formado em Gestão em Logística empresarial e realizando a segunda graduação em Sistemas de Informação,
+                        tenho experiencia em logística, supply chain e analise comercial, hoje busco uma posição desafiadora na area
+                        de Tecnologia web desenvolvendo sites e aplicações web.
+                    </p>
+                    
+                </div>
+                <div class="formacao">
+                    <h2>FORMAÇÃO EDUCACIONAL</h2>
+                    <h3>BACHARELADO EM SISTEMA DE INFORMAÇÃO - FACULDADE IMPACTA DE TECNOLOGIA</h3>
+                    <p id="periodo">2020 - 2023</p>
+                    <p>Desenvolvendo alguns projetos acadêmicos que envolvem ferramentas, linguagens e conhecimentos técnicos:</p>
+                    1º Semestre:
+                    <br>
+                    Arduíno, Fundamento de banco de dados e Lógica de programação (Python Basico).
+                    <br>
+                    <br>   
+                    2º Semestre:
+                    <br>
+                    Linguagem SQL Server, tecnologia Web (HTML5, CSS3, JavaScript) e Logica de programação 2 (Python intermediário), engenharia de software (projeto), DevOps e Gestão de Projeto (SCRUM).
+                    <br>
+                    <br>
+                    3º Semestre:
+                    <br>
+                    FALTA INFORMAÇÕES A SER COLOCADA
 
-    <div class="Contato">
-        <!-- <img src="../PARTICULAR/minha.jpg"> VERIFICAR COMO DEIXAR A IMAGEM NO CURRICULO -->
+                    <h3>TECNOLOGO EM LOGÍSTICA - FACULDADE SUMARÉ</h3>
+                    <p id="periodo">2010 - 2012</p>
+                    <p>Foi desenvolvido o aprendizado das areas de compras, supply chain, logistica de transporte, empreendedorismo,
+                    projeto de conclusão de curso foi um site de venda online de ferramentas onde eu fiquei responsavel por estruturar
+                    todo o departamento de compras da empresa.
+                    </p>
 
-        <h1>Silvio Rodrigo do Nascimento Carvalho</h1>
-        <P>32 anos - Casado - 1 filha</P>
-        <p><strong>Endereço: </strong>Av. Brigadeiro Luis Antonio, 733 - APTO 807 Bl A2</p>
-        <p><strong>Cidade: </strong>São Paulo - SP </p>
-        <p><strong>Telefone: </strong>(11)951318706</p>
-        <p><strong>Email: </strong><a href="mailto:silvio.carvalho@gmail.com">silvio.carvalho@gmail.com</a></p>
-        <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/silviocar/">Silvio Carvalho</a></p>
-    </div>
-    <hr>
-    <h2>Objetivo</h2>
-    <p>Estágio em desenvolvimento, Analista de desenvolvimento, Desenvolvedor Web Junior</p>
+                </div>
+                <div class="experiencia">
+                    <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+                    <h3>ANALISTA COMERCIAL - GRUPO CARREFOUR</h3>
+                    <p id="periodo">2017 - 2019 (2 anos e 3 meses)</p>
+                    <p>Atuando junto ao comercial, dando apoio no planejamento da companhia realizei diversas atividades tais como:
+                        <br>
+                        <ul>
+                            <li>Análise de demanda e vendas;
+                            <li>Apoio no gerenciamento por categoria (AUTOMOTIVO e BRICOLAGEM);
+                            <li>Distribuição e logística de produtos;
+                            <li>Criação de diversos relatórios estratégicos para apoiar o planejamento comercial;
+                            <li>Monitoramento do mercado, tendências do varejo e comportamento de consumo (Nielen);
+                            <li>Revisões dos preços praticados e margem de produtos;
+                            <li>Responsável pela estratégia na distribuição dos produtos dos CDs para as lojas;
+                            <li>Responsável pelas análises e ações nas classificações de estoque (morto, excesso, baixo giro);
+                            <li>Gestão carteira de pedidos;
+                            <li>Cadastro de produtos e fornecedores;
+                            <li>Negociação e relacionamento direto com fornecedores;
+                            <li>Planejamento e estratégia de mídias e desenvolvimento de campanhas promocionais;
+                        </ul>
 
-    <h2>Resumo</h2>
-    <p>Atualmente cursando 3º semestre de Sistemas de Informação na <a href="https://www.impacta.edu.br/sobre">Faculdade de
-        Tecnologia Impacta</a>.
-    <p>Formado em 2012 no curso de Gestão em Logística empresarial pela <a href="https://sumare.edu.br/instituicao.html">Faculdade
-        Sumaré.</a></p>
-        Já estudando Tecnologia desenvolvi e estou desenvolvendo alguns
-        projetos acadêmicos que envolvem as seguintes ferramentas e
-        linguagens: <strong>Arduíno, SQL Server, HTML 5, CSS e JavaScript.</strong>
-        <p><strong>Meus conhecimentos técnicos são:</strong></p>
-        <ul>
-            <li>Python</li>
-            <li>GiTHub</li>
-            <li>SQL Server</li>
-            <li>HTML5</li>
-            <li>Css</li>
-            <li>VSCode</li>
-            <li>PyCharm</li>
-            <li>JavaScript</li>
-            <li>Lógica de programação</li>
-            <li>Gestão em Projetos</li>
-            <li>Metodologia Ágil</li>
-            <li>DevOps</li>
-        </ul>
-    <p>Com experiência na área Comercial, Compras e Logística,
-        desenvolvendo analises e criando DashBoard através da ferramenta
-        Excel. Estava ficando frustrado com a minha vida profissional e
-        somente eu que poderia mudar isso, então fiquei
-        pensando por onde começar essa mudança.
-        Desde mais novo sempre gostei de computação em geral, fiquei
-        interessado em estudar algo na área de TI porém a vida nos
-        faz seguir alguns caminhos alternativos, em 2019 resolvi voltar
-        aos estudos e estudar programação, fiz a minha inscrição em
-        alguns cursos na plataforma <strong>UDEMY</strong> tais como: <strong>LÓGICA DE
-        PROGRAMAÇÃO, BANCO DE DADOS e DESENVOLVIMENTO WEV</strong> para aperfeiçoamento na nova carreira,
-        foi incrível escrever as minhas primeiras linhas de códigos, foi emocionante a perspectiva
-        de mudar minha direção ao desconhecido.
-        No inicio de 2020 resolvi então estudar e fazer a minha segunda
-        graduação na área de TI, acredito que com a minha experiência
-        junto com a tecnologia será um grande diferencial na minha vida profissional.</p>
-    
-    
-        <h2>Formação</h2>
-    <div class="formacao">
-        <p><strong>Graduação em Sistema de Informação</strong></p>
-        <p>Faculdade Impacta de Tecnologia</p>
-        <P>Cursando 3º semestre, previsão Dez/2023</P>
-        <br>
-        <p><strong>Graduação em Logistica</strong></p>
-        <p>Faculdade Sumaré</p>
-        <P>Concluído: Dez/2012</P>
-    </div>   
+                    </p>
+                    <h3>ANALISTA DE ABASTECIMENTO - GRUPO COMOLATTI - DISTRIBUIDORA AUTOMOTIVA</h3>
+                    <p id="periodo">2015 - 2016 (1 ano e 3 meses)</p>
+                    <ul>
+                        <li>Desenvolvimento, atualização e acompanhamento de planilhas gerenciais referentes a vendas, margem e estoque;</li>
+                        <li>Desenvolvimento e análise de relatórios de vendas e logística (rupturas);</li>
+                        <li>Acompanhamento e atualização de indicadores;</li>
+                        <li>Apresentação de resultado para a cúpula de diretoria e presidência;</li>
+                        <li>Identificação de deficiência de vendas e estoque;</li>
+                        <li>Responsável por todas as informações e aplicações do sistema Neogrid.</li>
+                    </ul>
 
-    <h2>Experiência</h2>
+                </div>
+                <div class="atividades">
+                    <h2>ATIVIDADES COMPLEMENTARES</h2>
+                    <p>Formado em Gestão em Logística empresarial e realizando a segunda graduação em Sistemas de Informação,
+                        tenho experiencia em logística, supply chain e analise comercial, hoje busco uma posição desafiadora na area
+                        de Tecnologia web desenvolvendo sites e aplicações web.
+                    </p>
+                </div>
+                
+                
+            </div>
+          
+        </section>
 
-    <p><strong>Analista de Planejamento - <a href="https://www.linkedin.com/company/carrefour-brasil/">Carrefour</a></strong></p>
-    <p>Atuando na inteligência comercial e supply chain, analisando e criando
-        indicadores focado no fluxo comercial tais como: compras, supply/
-        abastecimento de estoque (RUPTURA e EXCESSOS) e controle promocional.
-        Criação de Controles e DashBoard para garantir o fluxo de estoque da
-        companhia no departamento BAZAR, controlando o fluxo promocional,
-        abastecimento loja e controle de carteira de pedidos futuro, com a elaboração
-        e analise KPI’s para facilitar e ser mais assertivo nas tomadas de decisões e
-        ter um grande controle do estoque vs venda.
-        Relacionamento diário com departamento internos e externos tais como
-        fornecedores, Centros de Abastecimentos e Lojas nível Nacional.</p>
-
-    <p><strong>Analista de Produtos e abastecimento - <a href="https://www.linkedin.com/company/distribuidora-automotiva/">Distribuidora Automotiva</a></strong></p>
-    <p>Realização de tarefas referentes ao suporte administrativo nos processos de
-            compras; analise e criação de indicadores na ferramenta Excel,
-            Analise focado nas vendas, margens e estoques.
-            Apresentação de resultado para a cúpula de diretoria e presidência;
-            Responsável por todas as informações e aplicações do sistema Neogrid.</p>
-    <br>   
-    <br>
-    <a href="./silviocarvalho.tech.html">
-        <img src="./img/comeback - Copia.png" id="goBack" >
-    </a>
     </body>
 </html>
