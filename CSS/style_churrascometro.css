@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(./img/backgrund.jpg);
+    background-image: url(../img/background.jpg);
     background-size: 120%;
 }
 .container{

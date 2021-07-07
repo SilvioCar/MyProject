@@ -24,7 +24,7 @@ body{
 
 section{
     padding: 15px;
-    background-image: url(./img/17545.jpg);
+    background-image: url(../img/17545.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -35,8 +35,6 @@ section{
     float: right;
     border-radius: 5px;
 }
-
-
 
 a{
     text-decoration: none;
