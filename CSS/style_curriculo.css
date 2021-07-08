@@ -123,9 +123,7 @@ section{
     color: #2B2D42;
     margin-top: 15px;
     margin-bottom: 15px;
-    
 }
-
 .formacao{
     font-size: 15px;
     color: #2B2D42;
@@ -133,16 +131,13 @@ section{
     margin-right: 15px;
     border-bottom: solid #8492a685 1px;
 }
-
 #periodo{
     font-size: 12px;
     margin: 0;
 }
-
 .formacao p{
     border-bottom: 10px;
 }
-
 .experiencia{
     font-size: 15px;
     color: #2B2D42;
@@ -150,8 +145,6 @@ section{
     margin-right: 15px;
     border-bottom: solid #8492a685 1px;
 }
-
-
 .atividades{
     font-size: 15px;
     color: #2B2D42;
@@ -163,28 +156,23 @@ section{
     margin-top: 10px;
     margin-bottom: 5px;
 }
-
-
 .progress{
     height: 15px;
     background-color: #777;
     position: relative;
 }
-
 .progress .bar-html{
     width: 40%;
     height: 100%;
     position: absolute;
     background-color: #FCBF49;
 }
-
 .progress .bar-css{
     width: 30%;
     height: 100%;
     position: absolute;
     background-color: #FCBF49;
 }
-
 .progress .bar-js{
     width: 20%;
     height: 100%;
@@ -198,8 +186,6 @@ section{
     position: absolute;
     background-color: #FCBF49;
 }
-
-
 .progress .bar-excel{
     width: 80%;
     height: 100%;
@@ -207,27 +193,3 @@ section{
     background-color: #FCBF49;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    background-color: #FCBF49;
-}

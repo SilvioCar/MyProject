@@ -3,7 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(../img/background.jpg);
-    background-size: 120%;
+    background-size: 110%;
+    background-repeat: no-repeat;
 }
 .container{
     width: 350px;
@@ -45,7 +46,6 @@ h2{
     position: relative;
     margin: 0;
 }
-
 /* estilizando o conteudo dentro do container, informação */
 input{
     width: 100%;
@@ -64,4 +64,26 @@ input{
 #resultado{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container{
+        width: 250px;
+        top: 50px;
+    }
+
+    #goBack{
+        position: absolute;
+        left: 258px;
+    }
+    body{
+        background-image: url(../img/background.jpg);
+        background-size: 100%;
+        background-repeat: repeat;
+        
+       
+        
+    }
+
 }

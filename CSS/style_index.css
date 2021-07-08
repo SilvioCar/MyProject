@@ -89,3 +89,36 @@ footer{ /* aplicando estilo no rodaé tais como: cor do fundo, espaço e central
   .button:hover{
       background-color: #2f78ff;
   }
+
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px) {
+    .title {
+		font-size: 15px;
+        margin: 0;
+	}
+    .formContainer{
+        margin-right: 30px;
+        margin-left: 30px;        
+    }
+    .formContainer h2{
+        margin: 0;
+    }
+    .formContainer p{
+        margin-top: 0;
+    }
+    footer{
+        padding: 20px;
+    }
+    .description{
+        width: 150px;
+        margin: 0;
+        display: inline;
+        text-align: justify;
+    }
+    .picture{
+        display: block;
+        width: 150px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
